@@ -1,0 +1,19 @@
+{
+  "name": "madmandetails.com",
+  "version": "1.0.0",
+  "description": "Site for Bro's detailing business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgraveline/madmandetails.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgraveline/madmandetails.com/issues"
+  },
+  "homepage": "https://github.com/cgraveline/madmandetails.com#readme"
+}

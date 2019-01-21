@@ -1,79 +1,187 @@
-<!doctype html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>M.A.D. Man</title>
-        <meta name="description" content="M.A.D Man - Mobile Automotive Detailing. A complete detailing service for anything with wheels, with the ability to travel to your location.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="/madman/favicon128.png">
-        <link rel="shortcut icon" href="/madman/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="/madman/mad-stylish.css" type="text/css">
-
-    </head>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-            font-family: 'Avenir',sans-serif;
-        }
-        #intro {
-            background-color: black;
-            height: 200px;
-        }
-        .intro-logo {
-            display: block;
-            position: relative;
-            top: 40px;
-            margin: 50px auto;
-            max-width: 100%;
-        }
-        .nav {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            padding: 10px;
-            background: #f44336;
-            width: 100%;
-            border-bottom: 4px solid #b71c1c;
-        }
-        .nav-logo {
-            background: url();
-            position: absolute;
-            text-indent: -100000px;
-        }
-        .nav-link {
-            flex: 1;
-            list-style: none;
-            font: 600 16px/20px sans-serif;
-            color: #333;
-        }
-        .nav-link a {
-            text-decoration: none;
-            color: #333;
-        }
-        #about,
-        #packages,
-        #contact {
-            padding: 80px 0;
-        }
-        .flex-container {
-            display: inline-flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-
-    </style>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <!-- <img class="intro-logo" src="/images/madman-logo-large.png"/> -->
-        <div class="flex-container">
-          <h1>This site is under construction 🏗</h1>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta class="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>M.A.D Man - Mobile Automotive Detailing</title>
+  <meta name="description" content="M.A.D Man - Mobile Automotive Detailing. A complete detailing service for anything with wheels, with the ability to travel to your location.">
+  <link rel='stylesheet' href='css/main.css' />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+  
+  <!-- Hero(extended) navbar -->
+  <div class="navbar navbar--extended">
+    <nav class="nav__mobile"></nav>
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <div class="logo-img">
+            <img src="images/madman-logo.png"/>
+          </div>
+          <span class="logo-text">
+            M.A.D. Man Detailing
+          </span>
+        </a>
+        <nav class="navbar__menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- <li><a href="#gallery">Gallery</a></li> -->
+            <li><a href="#contact" class="button button__accent nav__btn">
+              <i class="fas fa-phone"></i>Contact
+            </a></li>
+          </ul>
+        </nav>
+        <div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Hero unit -->
+  <div class="hero">
+    <div class="hero__overlay hero__overlay--gradient"></div>
+    <div class="hero__mask"></div>
+    <div class="hero__inner">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__content__inner" id='navConverter'>
+            <div class="intro-logo">
+              <img src="images/madman-logo.png" />
+            </div>
+            <h1 class="hero__title">Mobile Auto Detailing</h1>
+            <p class="hero__text">
+              Experienced detailing for your automobile, motorcycle, or marine vehicle!
+            </p>
+            
+            <a href="#services" class="button hero__button">View services</a>
+          </div>
         </div>
-    </body>
-</html>
+      </div>
+    </div>
+  </div>
+  <div class="hero__sub">
+    <span id="scrollToNext" class="scroll">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+    </span>
+  </div>
+  
+  
+  
+  <!-- Expanded sections -->
+  <div id="about" class="expanded landing__section">
+    <div class="container">
+      <div class="expanded__inner">
+        <div class="expanded__media">
+          <img src="./images/mad-about.jpg" class="expanded__image">
+        </div>
+        <div class="expanded__content">
+          <h2 class="expanded__title">M.A.D. Man Auto Detailing</h2>
+          <p class="expanded__text">MAD MAN is a Mobile Auto Detailing company that offers a wide range of options to fit your specific needs for your specific vehicle. we have many pre made packages from you to choose from or you can custom build one to suit your needs. services include hand wash and dry, wheel cleaning, scratch and swirl removal, paint restoration, wax or paint coating. we also do the entire vehicles interior from shampoo and spot stain removal to full dressing and conditioning of all interior parts. call and book your appointment today!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Steps -->
+  <div id="services" class="steps landing__section">
+    <div class="container">
+      <div>
+        <h2>Services</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="steps__inner">
+        <div class="step">
+          <div class="step__media">
+            <img src="./images/1.png" class="step__image">
+          </div>
+          <h4>BASIC</h4>
+          <ul class="step__text">
+            <li>Hand wash and dry</li>
+            <li>Wheels cleaned and tires dressed</li>
+            <li>Dust and vaccuum interior</li>
+          </ul>
+        </div>
+        <div class="step">
+          <div class="step__media">
+            <img src="./images/2.png" class="step__image">
+          </div>
+          <h4>BASIC PLUS</h4>
+          <ul class="step__text">
+            <li>Hand wash and dry</li>
+            <li>Wheels cleaned and tires dressed</li>
+            <li>Dust and vaccuum interior</li>
+            <li>Coat of wax with 3mo protection</li>
+          </ul>
+        </div>
+        <div class="step">
+          <div class="step__media">
+            <img src="./images/3.png" class="step__image">
+          </div>
+          <h4>HEAD TURNER</h4>
+          <ul class="step__text">
+            <li>Hand wash and dry</li>
+            <li>Wheels cleaned and tires dressed</li>
+            <li>Dust and vaccuum interior</li>
+            <li>Coat of wax with 3mo protection</li>
+            <li>Carpet shampoo and condition</li>
+            <li>Upholstry cleaned and conditioned</li>
+            <li>Minor swirl and blemish removal</li>
+          </ul>
+        </div>
+        <div class="step">
+          <div class="step__media">
+            <img src="./images/4.png" class="step__image">
+          </div>
+          <h4>SHOW CAR</h4>
+          <ul class="step__text">
+            <li>Hand wash and dry</li>
+            <li>Wheels cleaned and tires dressed</li>
+            <li>Dust and vaccuum interior</li>
+            <li>Coat of wax with 3mo protection</li>
+            <li>Carpet shampoo and condition</li>
+            <li>Upholstry cleaned and conditioned</li>
+            <li>Minor swirl and blemish removal</li>
+            <li>Full paint correction and paint sealant, up to 12mo of protection</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Call To Action -->
+  <div id="contact" class="cta cta--plain">
+    <div class="container">
+      <div class="cta__inner">
+        <h2 class="cta__title">Make it Shine</h2>
+        <p class="cta__sub cta__sub--center">Make your car show ready, or just extra clean and looking sharp! <br>Make an appointment with us now.</p>
+        <a href="tel:1-413-218-0066" class="button button__accent">
+          <i class="fas fa-phone"></i>Call now
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer footer--dark">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__textLogo">M.A.D. Man</a>
+        
+        <a href="tel:1-413-218-0066" class="footer__link">
+          <i class="fas fa-phone"></i>(413) 218-0066
+        </a>
+        <a href="mailto:madmandetails@gmail.com" class="footer__link">
+            <i class="far fa-envelope"></i>madmandetails@gmail.com
+          </a>
+        <a href="https://www.facebook.com/pg/MADmanDETAILS" target="_blank" class="footer__link">
+          <i class="fab fa-facebook"></i>Facebook
+        </a>
+        
+      </div>
+    </div>
+    <script src='js/app.min.js'></script>
+  </body>
+  </html>
+  
