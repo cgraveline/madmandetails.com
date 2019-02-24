@@ -1215,7 +1215,32 @@ select::-ms-expand {
     }  
   }
 }
-
+.price-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 2px solid #f4f4f4;
+}
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 50%;
+}
+.type {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  color: #999;
+  text-transform: uppercase;
+}
+.price {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
 .step__media {
   margin: 16pt 0; 
 }
@@ -1390,6 +1415,19 @@ select::-ms-expand {
   }
 }
 
+.ida-logo {
+  margin: 3rem 0 0;
+  background: #fff;
+  max-width: 200px;
+  width: 100%;
+  padding: .5rem .5rem 0;
+  border-radius: 25px;
+}
+@media (min-width: 600px) {
+  .ida-logo {
+    margin: 4rem auto 0;
+  }
+}
 .footer__data {
   -js-display: flex;
   display: flex;
